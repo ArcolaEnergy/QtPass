@@ -66,3 +66,12 @@
 * verify that the GnuPG public keys used for encryption are
   sufficiently secure.
 
+* to make passwords "unphishable" (aside the offering of the URL
+  button that opens the browser on the predefined (and presumably
+  correct), unphishable URL): have functionality that offers to (and
+  perhaps requires to) copy-paste the current URL in the browser into
+  qtpass and only then get the password copied (or if it fails, shows
+  error popup). Probably requires an additional "allowed-urls:" field
+  or so with a list of secondary (base) URLs (/domains) that are
+  allowed to see the password.
+
