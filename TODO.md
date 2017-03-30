@@ -31,14 +31,19 @@
 * store all user's public keys as meta data (that the newest version
   of `pass` offers), automatically add them to GnuPG on update, use as
   the users list instead of the keys in the GnuPG
-  keyring. (configuration option?)
+  keyring. (Configuration option?)
+
+    * how to make this secure against an attacker adding fake employee
+      keys?  Use network of trust (how to represent in UI)?  Or sign
+      the whole key collection with reputable key (but then which keys
+      are reputable)?
 
 * Add the "ultimate" (own) public key to the users meta data in the
   repository, either automatically or by confirming a dialog.
 
 * when starting for the first time and GnuPG does not have a private
   key, automatically (or after asking?, since it's a long process)
-  create a key pair. 
+  create a key pair. (Use somewhat future-proof settings!)
 
 * on X-Windows: probably have copy actions also copy to the X
   selection, not only the clipboard.
@@ -55,3 +60,9 @@
 
 * test under Valgrind and ASAN, and review code for pointer usage,
   and/or verify what the Coverity scan covers.
+
+## Nice to have
+
+* verify that the GnuPG public keys used for encryption are
+  sufficiently secure.
+
