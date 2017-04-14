@@ -82,6 +82,9 @@ this.
 * test under Valgrind and ASAN, and review code for pointer usage,
   and/or verify what the Coverity scan covers.
 
+* Ability to move passwords between folders in QtPass. This should warn you if 
+  changing permissions.
+
 ## Nice to have
 
 * verify that the GnuPG public keys used for encryption are
