@@ -1,4 +1,17 @@
-# Needed by Arcola
+# TODO
+
+## Questions
+
+* how to do on Android and iOS, with which client, how is
+  compatibility then? Or would QtPass run there?
+
+    * [Qt for Android](http://doc.qt.io/qt-5/android-support.html): *"Qt for Android enables you to run Qt 5 applications on devices with Android v4.1 (API level 16) or later."*
+    * [Qt for iOS](http://doc.qt.io/qt-5/ios-support.html)
+
+* should we allow or disallow people to use the native in-browser pw
+  storage? Is that one implemented securely?
+
+## Needed by Arcola
 
 * automatically run "update" action on startup (as well as
   periodically?)  (incl. configuration option)
